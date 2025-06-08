@@ -3,7 +3,7 @@
 本プロジェクトは、1関節アームによるリーチング課題に強化学習（Soft Actor-Critic）を適用したものです。学習エージェントは、手先を目標座標に最短時間かつ滑らかに到達させることを目的とします。
 
 ## 使用技術
-- Python 3.10
+- Python 2.90
 - TensorFlow 2.15
 - NumPy, matplotlib
 - OpenAI Gym風オリジナル環境
