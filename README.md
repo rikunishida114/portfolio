@@ -4,7 +4,7 @@
 
 ## 使用技術
 - Python 2.90
-- TensorFlow 2.15
+- TensorFlow 2.19
 - NumPy, matplotlib
 - OpenAI Gym風オリジナル環境
 
