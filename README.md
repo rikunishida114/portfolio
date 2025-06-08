@@ -16,6 +16,7 @@ portfolio/
 │   └── graph.ipynb                # 解析・可視化用ノートブック
 │
 └── requirements.txt               # Pythonで必要なライブラリ
+```
 
 ## 特徴・工夫点
 - **物理ダイナミクスの再現**（角速度・加速度・躍度を計算）
