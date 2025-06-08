@@ -1,6 +1,6 @@
 # One-Joint Arm Reacher (強化学習課題)
 
-本プロジェクトは、1関節アームによるリーチング課題に強化学習（Soft Actor-Critic）を適用したものです。学習エージェントは、手先を目標座標に最短時間かつ滑らかに到達させることを目的とします。
+本プロジェクトは、1関節アームによるリーチング課題に強化学習（Soft Actor-Critic）を適用したものです。学習エージェントは、手先を目標座標に決まった時間で滑らかに到達させることを目的とします。
 
 ## 特徴・工夫点
 - **物理ダイナミクスの再現**（角速度・加速度・躍度を計算）
@@ -21,13 +21,14 @@
 3. 学習の実行
 ```bash
 jupyter notebook sac_one_joint_reacher/plot_results.ipynb
-
 ```
 
 4. 結果の表示
 ```bash
 jupyter notebook sac_one_joint_reacher/plot_results.ipynb
 ```
-
+## 進捗状況
+1. 決まった時間に到達するように学習させることはできた
+2. 報酬に躍度を入れた場合、
 ## ディレクトリ構成
 
