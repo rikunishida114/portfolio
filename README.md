@@ -26,7 +26,7 @@ jupyter notebook sac_one_joint_reacher/plot_results.ipynb
 
 4. 結果の表示
 ```bash
-jupyter notebook notebooks/plot_results.ipynb
+jupyter notebook sac_one_joint_reacher/plot_results.ipynb
 ```
 
 ## ディレクトリ構成
