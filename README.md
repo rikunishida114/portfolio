@@ -11,10 +11,6 @@
 4. 使用技術（推奨環境）  
 5. 実行方法（CPU 向け）  
 6. 出力ファイル（`logs/` の説明）  
-7. `requirements.txt`（推奨中身）  
-8. トラブルシュート & 補足  
-9. 提出物チェックリスト
-
 ---
 
 ## 1. 概要
@@ -58,7 +54,7 @@ portfolio/
 1. リポジトリをクローン
 ```bash
 git clone https://github.com/rikunishida114/portfolio.git
-cd <repo-name>
+cd portfolio
 ```
 
 2. 仮想環境を作る（任意だが推奨）  
