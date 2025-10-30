@@ -6,12 +6,12 @@
 
 ```plaintext
 portfolio/
-├── one_joint_reacher/              # 基底関数を用いたC言語版の強化学習（シンプルな関数近似による方策学習）
+├── one_rink_reacher/              # 基底関数を用いたC言語版の強化学習（シンプルな関数近似による方策学習）
 │   ├── main.c                      # メイン処理
 │   ├── function.c                  # 方策や更新式などの関数群
 │   └── param.h                     # 各種定数・ハイパーパラメータ
 │
-├── Two_rink_reacher/         # SAC（Soft Actor-Critic）による深層強化学習（Python）
+├── two_rink_reacher/         # SAC（Soft Actor-Critic）による深層強化学習（Python）
 │   ├── sac.ipynb                  # SAC実装（ノートブック）
 │   └── graph.ipynb                # 解析・可視化用ノートブック
 │
