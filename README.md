@@ -1,6 +1,6 @@
-# One-Joint Arm Reacher (強化学習課題)
+# Two-Rink Arm Reacher (強化学習課題)
 
-本プロジェクトは、1関節アームによるリーチング課題に強化学習を適用したものです。学習エージェントは、手先を目標座標に決まった時間で滑らかに到達させることを目的とします。
+本プロジェクトは、2関節アームによるリーチング課題に強化学習を適用したものです。学習エージェントは、手先を目標座標に決まった時間で滑らかに到達させることを目的とします。
 
 ## ディレクトリ構成
 
@@ -11,7 +11,7 @@ portfolio/
 │   ├── function.c                  # 方策や更新式などの関数群
 │   └── param.h                     # 各種定数・ハイパーパラメータ
 │
-├── sac_one_joint_reacher/         # SAC（Soft Actor-Critic）による深層強化学習（Python）
+├── Two_rink_reacher/         # SAC（Soft Actor-Critic）による深層強化学習（Python）
 │   ├── sac.ipynb                  # SAC実装（ノートブック）
 │   └── graph.ipynb                # 解析・可視化用ノートブック
 │
