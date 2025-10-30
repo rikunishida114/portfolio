@@ -1,0 +1,31 @@
+{
+    "DT": 0.01,
+    "L": 1.0,
+    "THETA_INIT": [
+        40,
+        100
+    ],
+    "GOAL_POS": [
+        0.0,
+        0.9
+    ],
+    "STEPS_MAX": 200,
+    "THRESHOLD": 0.03,
+    "REWARD_P_V": 10.0,
+    "REWARD_J": 0.0004,
+    "REWARD_JE_LIM": 1.0,
+    "T_TARGET": 0.45,
+    "SIGMA_T": 2.0,
+    "R_GOAL": 50.0,
+    "TIME_COST": 0.001,
+    "SHAPING_DIST_COEFF": 10.0,
+    "SHAPING_JERK_COEFF": 1e-07,
+    "total_timesteps": 3000000,
+    "learning_rate": 0.0003,
+    "buffer_size": 100000,
+    "batch_size": 256,
+    "eval_freq": 100,
+    "hid_lay": 64,
+    "TAU": 0.01,
+    "BETA": 1.0
+}
