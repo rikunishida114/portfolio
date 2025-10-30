@@ -26,10 +26,10 @@ portfolio/
 │   ├── function.c
 │   └── param.h
 ├── two_rink_reacher/              # Python / SB3 実装（メイン）
-│   ├── jerk_min.ipynb
+│   ├── jerk_min.ipynb             # 学習・評価
 │   ├── logs/                      # 学習・評価の出力（CSV・PNG・モデル等）
 │   └── models/                    # 学習済みモデル（オプション）
-└── requirements.txt               # 推奨パッケージ一覧
+└──-------------------             
 ```
 
 ---
