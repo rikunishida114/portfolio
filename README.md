@@ -22,7 +22,7 @@
 
 ---
 
-## 2. ディレクトリ構成（例）
+## 2. ディレクトリ構成
 ```
 portfolio/
 ├── one_rink_reacher/              # C言語版（基底関数近似の実験）
@@ -49,7 +49,7 @@ portfolio/
 
 ## 4. 使用技術（推奨環境）
 - Python 3.9 ～ 3.11 を推奨（3.12+ は依存で不整合が出る場合あり）  
-- CPU 実行（GPU は不要）  
+- CPU 実行 
 - ライブラリ例：PyTorch（CPU）、stable-baselines3、gymnasium、numpy、pandas、matplotlib など
 
 ---
@@ -85,13 +85,7 @@ pip install 'stable-baselines3[extra]'
 # sb3-contrib を使っている場合は次も
 pip install sb3-contrib
 ```
-
-5. （あるいは一括で）`requirements.txt` を使う
-```bash
-pip install -r requirements.txt
-```
-
-6. Jupyter を起動してノートブックを実行
+5. Jupyter を起動してノートブックを実行
 ```bash
 jupyter notebook
 # ブラウザで次を実行:
@@ -126,42 +120,3 @@ jupyter notebook
 
 ---
 
-## 7. `requirements.txt`（推奨中身）
-以下を `requirements.txt` に保存しておくと再現しやすいです（推奨バージョン）。環境に応じて調整してください。
-
-```
-# Python
-python>=3.9,<3.12
-
-# 基本数値・可視化
-numpy>=1.23
-pandas>=1.5
-matplotlib>=3.6
-seaborn>=0.12
-scipy>=1.8
-tqdm>=4.64
-
-# PyTorch: 事前に CPU 用 wheel を入れることを推奨
-torch>=2.1.0
-
-# 強化学習ライブラリ
-stable-baselines3>=1.8.0
-sb3-contrib>=2.0.0   # optional
-
-# Gym
-gymnasium>=0.28.1
-
-# Jupyter / Notebook
-jupyterlab
-notebook
-tensorboard    # optional
-
-# utils
-click
-```
-
-**備考**  
-- `torch` は `pip install torch --index-url https://download.pytorch.org/whl/cpu` のように CPU 用 wheel を先に入れておくと依存解決で失敗しにくくなります（GPU を使わない場合）。  
-- `stable-baselines3` は `pip install 'stable-baselines3[extra]'` で extras（TensorBoard 等）も入りますが、`torch` を先に入れると安全です。
-
----
