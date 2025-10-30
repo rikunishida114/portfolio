@@ -127,7 +127,5 @@ jupyter notebook
 - `end_result_2joint_with_handnorms_joint_dynamics.png`  
   → 各関節（joint1, joint2）の角度（deg）、角速度（deg/s）、角加速度、角躍度の時間推移をまとめた図。
 
-> これらの図は `jerk_min.ipynb` の可視化セルから生成されます。`logs/` に含めておくと、レビュー時に即座に結果を確認してもらえます。
-
 ---
 
