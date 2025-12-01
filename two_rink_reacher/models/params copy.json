@@ -11,8 +11,8 @@
     ],
     "STEPS_MAX": 200,
     "THRESHOLD": 0.03,
-    "REWARD_P_V": 10.0,
-    "REWARD_J": 0.0004,
+    "REWARD_P_V": 15.0,
+    "REWARD_J": 0.01,
     "REWARD_JE_LIM": 1.0,
     "T_TARGET": 0.45,
     "SIGMA_T": 2.0,
@@ -26,6 +26,5 @@
     "batch_size": 256,
     "eval_freq": 100,
     "hid_lay": 64,
-    "TAU": 0.01,
-    "BETA": 1.0
+    "TAU": 0.01
 }
