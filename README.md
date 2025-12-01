@@ -33,7 +33,7 @@ Python でカスタム実装した 2 リンクアーム環境上で目標位置�
 
 ### 手先軌道＋アーム姿勢
 
-![Trajectory + Arms](research/two_rink_reacher/logs/end_result_2joint_with_handnorms_trajectory_with_arms.png)
+![Trajectory + Arms](two_rink_reacher/logs/end_result_2joint_with_handnorms_trajectory_with_arms.png)
 
 学習済みポリシーで得られた手先軌道と、各時刻のアーム姿勢を重ねて表示した図です。  
 目標位置への到達パターンと関節の動き方を一枚で確認できます。
@@ -42,7 +42,7 @@ Python でカスタム実装した 2 リンクアーム環境上で目標位置�
 
 ### 手先ノルム（速度・加速度・躍度）
 
-![Hand Norms](research/two_rink_reacher/logs/end_result_2joint_with_handnorms_hand_norms.png)
+![Hand Norms](two_rink_reacher/logs/end_result_2joint_with_handnorms_hand_norms.png)
 
 手先の速度・加速度・躍度（jerk）の時間変化をプロットした図です。  
 リーチング中のピーク速度の位置や滑らかさを定量的に見ることができます。
@@ -51,7 +51,7 @@ Python でカスタム実装した 2 リンクアーム環境上で目標位置�
 
 ### 関節ダイナミクス（角度・角速度・角加速度）
 
-![Joint Dynamics](research/two_rink_reacher/logs/end_result_2joint_with_handnorms_joint_dynamics.png)
+![Joint Dynamics](two_rink_reacher/logs/end_result_2joint_with_handnorms_joint_dynamics.png)
 
 各関節の角度・角速度・角加速度・角躍度の時間推移をまとめた図です。  
 手先レベルだけでなく、関節空間でどのように動いているかを確認できます。
@@ -60,9 +60,9 @@ Python でカスタム実装した 2 リンクアーム環境上で目標位置�
 
 ### 報酬成分の推移
 
-![Reward Components](research/two_rink_reacher/logs/group_reward_components.png)
+![Reward Components](two_rink_reacher/logs/group_reward_components.png)
 
-距離・時間・躍度ペナルティなど、報酬成分ごとの移動平均をまとめた図です。  
+距離・時間・躍度ペナルティなど、報酬成分ごとにまとめた図です。  
 学習が進むにつれて、どの項目がどのように変化しているかを把握できます。
 
 ---
